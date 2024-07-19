@@ -26,6 +26,12 @@ gem "bootsnap", require: false
 # Use Vite in Rails and bring joy to your JavaScript experience [https://github.com/ElMassimo/vite_ruby]
 gem "vite_rails", "~> 3.0"
 
+# Inertia adapter for Rails [https://github.com/inertiajs/inertia-rails]
+gem "inertia_rails", "~> 3.2"
+
+# A collection of extensions, developer tools for Inertia's Rails adapter [https://github.com/skryukov/inertia_rails-contrib]
+gem "inertia_rails-contrib", "~> 0.1.1"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]

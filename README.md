@@ -1,24 +1,51 @@
-# README
+# Ping CRM: Rails + React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A demo application to illustrate how [Inertia.js](https://inertiajs.com) works with [Rails](https://rubyonrails.org) and [React](https://react.dev).
 
-Things you may want to cover:
+> This is a port of the [Ping CRM React](https://github.com/liorocks/pingcrm-react) written in Laravel and React.
 
-* Ruby version
+## Installation
 
-* System dependencies
+Clone the repo locally:
 
-* Configuration
+```sh
+git clone https://github.com/skryukov/pingcrm-rails-react.git
+cd pingcrm-rails-react
+```
 
-* Database creation
+Setup (install dependencies, create and seed database):
 
-* Database initialization
+```sh
+bin/setup
+```
 
-* How to run the test suite
+Start it:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bin/dev
+```
 
-* Deployment instructions
+You're ready to go! Visit Ping CRM in your browser (http://localhost:3000), and login with:
 
-* ...
+- **Username:** johndoe@example.com
+- **Password:** secret
+
+## Running tests
+
+To run the Ping CRM tests, run:
+
+```
+bin/rspec
+```
+
+## Requirements
+
+- Ruby 3.3
+- Ruby on Rails 7
+- SQLite
+
+## Credits
+
+- Original work by Jonathan Reinink (@reinink) and contributors
+- Port to Ruby on Rails by Georg Ledermann (@ledermann)
+- Port to React by Lio (@liorocks)
